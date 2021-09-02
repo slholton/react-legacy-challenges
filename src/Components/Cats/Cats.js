@@ -19,7 +19,7 @@ const Cats = () => {
          <li>Ensure there are no errors</li>
         </ul>
         <hr />
-       {/* <CatIndex /> */}
+       <CatIndex />
      </Container>
    );
 

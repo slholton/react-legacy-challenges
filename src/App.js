@@ -8,6 +8,6 @@ function App() {
       <Main />
     </React.Fragment>
   ); 
-}
+} 
 
 export default App;
