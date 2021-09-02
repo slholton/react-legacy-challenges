@@ -7,7 +7,7 @@ function App() {
     <React.Fragment>
       <Main />
     </React.Fragment>
-  );
+  ); 
 }
 
 export default App;
