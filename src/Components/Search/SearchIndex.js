@@ -1,13 +1,29 @@
-import React from 'react';
+import React from 'react';  // state
 import {Input} from 'reactstrap';
  
 const SearchIndex extends Component() {
    this.state = {
-     things: ['pen', 'marker', 'eraser', 'notebook', 'pencil', 'scissors', 'highlighter', 'stapler', 'paper clip', 'binder', 'hole punch', 'laminator', 'laminating sheets', 'protective sheets', 'index cards']
+    things: [
+    'pen', 
+    'marker', 
+    'eraser', 
+    'notebook', 
+    'pencil', 
+    'scissors', 
+    'highlighter', 
+    'stapler', 
+    'paper clip', 
+    'binder', 
+    'hole punch', 
+    'laminator', 
+    'laminating sheets', 
+    'protective sheets', 
+    'index cards']
    }
  }
 
  function searchFunction() {
+
  }
 
  render() {

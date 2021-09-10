@@ -2,8 +2,12 @@ import React from 'react';
 // import SearchIndex from './SearchIndex';
 import { Container } from 'reactstrap';
  
-const Search = () => {
+class Search extends Component {
+  ...
+
+  render() {
    return (
+     <div className="content">
      <Container className="App">
      <br />
        <h1 className="App-intro">
@@ -23,7 +27,11 @@ const Search = () => {
        </ul>
        <hr />
        {/* <SearchIndex /> */}
+       <ul>
+         {/* {this.state.things.map(things => )} */}
+       </ul>
      </Container>
+     </div>
    );
 
 }
